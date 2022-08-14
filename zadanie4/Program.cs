@@ -1,11 +1,12 @@
-﻿// Функция, на вход получает параметр, на выходе введженнео с консоли значение
-int Prompt(string message)
+﻿int Prompt(string message)
 {
     System.Console.Write(message);          // Вывести сообщение
     string readValue = Console.ReadLine();  // Считавает с консоли строку
     int result = int.Parse(readValue);      // Преобрадует строку в целое число
     return result;                          // Возвращает результат
 }
+
+//ПРОГРАММА РАБОТАЕТ, НО ПРОШУ ПОДСКАЗАТЬ БОЛЕЕ ОПТИМАЛЬНОЕ РЕШЕНИЕ, ЕСЛИ ВАС НЕ ЗАТРУДНИТ, СПАСИБО!
 
 int day = Prompt("Введите день недели (0 - 7) > ");
 if (day > 7)
