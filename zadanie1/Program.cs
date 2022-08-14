@@ -6,6 +6,7 @@
     return result; // Возвращает результат
 }
 
+
 int value1;
 value1 = Prompt("введите 3х значное число >");
 if (value1 > 999 || value1 < 99)
